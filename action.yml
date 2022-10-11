@@ -1,0 +1,9 @@
+name: 'StyleLintInspector'
+description: 'GitHub Action that runs stylelint.'
+author: 'Taras Hoisak <T-arok@ukr.net>'
+branding:
+  icon: 'layout'
+  color: 'black'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
